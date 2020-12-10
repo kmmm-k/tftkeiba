@@ -1,0 +1,38 @@
+﻿<UserControl x:Class="tftkeiba.Views.SettingsWindow"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:prism="http://prismlibrary.com/"             
+             xmlns:lc="clr-namespace:tftkeiba.Models.StaticData"
+             prism:ViewModelLocator.AutoWireViewModel="True">
+
+    <GroupBox Header="基本設定">
+        <StackPanel Margin="2">
+
+            <CheckBox Margin="2" IsChecked="{Binding IsGeneratingTanpyo}" VerticalAlignment="Center" >
+                <TextBlock Text="戦績から短評を生成"/>
+            </CheckBox>
+            <StackPanel Orientation="Horizontal">
+                <CheckBox Margin="2" IsChecked="{Binding ShouldGetAllSummonerData}" VerticalAlignment="Center" >
+                    <TextBlock Text="MASTER未満のサモナーデータを取得"/>
+                </CheckBox>
+                <TextBlock Text="　※動作が遅くなります。" Foreground="Red"/>
+            </StackPanel>
+
+            <!-- DB持たないとマスター以下のデータ管理は難しそうなので凍結 -->
+            <!--<TextBlock Text="データ取得対象リーグ"/>
+            <Separator/>
+        <TreeView ItemsSource="{Binding TierList}" Margin="2">
+            <TreeView.ItemTemplate>
+                <HierarchicalDataTemplate DataType= "lc:Tier" ItemsSource="{Binding divisions}">
+                    <StackPanel Orientation="Horizontal">
+                        <CheckBox IsChecked="{Binding IsChecked}" />
+                        <TextBlock Text="{Binding key}"/>
+                    </StackPanel>
+                    
+                </HierarchicalDataTemplate>
+            </TreeView.ItemTemplate>
+        </TreeView>-->
+
+        </StackPanel>
+    </GroupBox>
+</UserControl>

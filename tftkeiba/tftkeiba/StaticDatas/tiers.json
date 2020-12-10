@@ -1,0 +1,180 @@
+[
+    {
+        "key": "Challenger",
+        "order": "1",
+        "api": "challenger"
+    },
+    {
+        "key": "Grandmaster",
+        "order": "2",
+        "api": "grandmaster"
+    },
+    {
+        "key": "Master",
+        "order": "3",
+        "api": "master"
+    },
+    {
+        "key": "Diamond",
+        "order": "4",
+        "api": "entries/DIAMOND",
+        "divisions": [
+            {
+                "key": "I",
+                "order": "1",
+                "api": "I"
+            },
+            {
+                "key": "II",
+                "order": "2",
+                "api": "II"
+            },
+            {
+                "key": "III",
+                "order": "3",
+                "api": "III"
+            },
+            {
+                "key": "IV",
+                "order": "4",
+                "api": "IV"
+            }
+        ]
+    },
+    {
+        "key": "Platinum",
+        "order": "5",
+        "api": "entries/PLATINUM",
+        "divisions": [
+            {
+                "key": "I",
+                "order": "1",
+                "api": "I"
+            },
+            {
+                "key": "II",
+                "order": "2",
+                "api": "II"
+            },
+            {
+                "key": "III",
+                "order": "3",
+                "api": "III"
+            },
+            {
+                "key": "IV",
+                "order": "4",
+                "api": "IV"
+            }
+        ]
+    },
+    {
+        "key": "Gold",
+        "order": "6",
+        "api": "entries/GOLD",
+        "divisions": [
+            {
+                "key": "I",
+                "order": "1",
+                "api": "I"
+            },
+            {
+                "key": "II",
+                "order": "2",
+                "api": "II"
+            },
+            {
+                "key": "III",
+                "order": "3",
+                "api": "III"
+            },
+            {
+                "key": "IV",
+                "order": "4",
+                "api": "IV"
+            }
+        ]
+    },
+
+    {
+        "key": "Silver",
+        "order": "7",
+        "api": "entries/SILVER",
+        "divisions": [
+            {
+                "key": "I",
+                "order": "1",
+                "api": "I"
+            },
+            {
+                "key": "II",
+                "order": "2",
+                "api": "II"
+            },
+            {
+                "key": "III",
+                "order": "3",
+                "api": "III"
+            },
+            {
+                "key": "IV",
+                "order": "4",
+                "api": "IV"
+            }
+        ]
+    },
+    {
+        "key": "Bronze",
+        "order": "8",
+        "api": "entries/BRONZE",
+        "divisions": [
+            {
+                "key": "I",
+                "order": "1",
+                "api": "I"
+            },
+            {
+                "key": "II",
+                "order": "2",
+                "api": "II"
+            },
+            {
+                "key": "III",
+                "order": "3",
+                "api": "III"
+            },
+            {
+                "key": "IV",
+                "order": "4",
+                "api": "IV"
+            }
+        ]
+    },
+    {
+        "key": "Iron",
+        "order": "9",
+        "api": "entries/IRON",
+        "divisions": [
+            {
+                "key": "I",
+                "order": "1",
+                "api": "I"
+            },
+            {
+                "key": "II",
+                "order": "2",
+                "api": "II"
+            },
+            {
+                "key": "III",
+                "order": "3",
+                "api": "III"
+            },
+            {
+                "key": "IV",
+                "order": "4",
+                "api": "IV"
+            }
+        ]
+    }
+]

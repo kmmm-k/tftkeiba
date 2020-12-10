@@ -1,0 +1,9 @@
+﻿<Menu x:Class="tftkeiba.Views.MenuBar"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:prism="http://prismlibrary.com/"             
+             prism:ViewModelLocator.AutoWireViewModel="True">
+    <MenuItem Header="オプション">
+        <MenuItem Header="設定" Command="{Binding SettingCommand}"/>
+    </MenuItem>
+</Menu>

@@ -1,0 +1,54 @@
+﻿<UserControl  x:Class="tftkeiba.Views.SearchHorseWindow"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:prism="http://prismlibrary.com/"
+             MinHeight="300" MinWidth="300" MaxWidth="1000" MaxHeight="500"
+             prism:ViewModelLocator.AutoWireViewModel="True">
+    <DockPanel>
+        <TextBox x:Name="InputTextBlock" DockPanel.Dock="Top" Text="{Binding HorseName, UpdateSourceTrigger=PropertyChanged}">
+            <TextBox.InputBindings>
+                <KeyBinding Gesture="Enter" Command="{Binding SearchCommand}"/>
+            </TextBox.InputBindings>
+        </TextBox>
+        <DataGrid x:Name="mainGrid" 
+                  DockPanel.Dock="Top" 
+                  ItemsSource="{Binding Horses}" 
+                  SelectedItem="{Binding SelectedHorse}"
+                  AutoGenerateColumns="False" 
+                  CanUserAddRows="False" 
+                  CanUserDeleteRows="False">
+            <DataGrid.InputBindings>
+                <MouseBinding
+                    MouseAction="LeftDoubleClick"
+                    Command="{Binding SelectCommand}"/>
+            </DataGrid.InputBindings>
+            <DataGrid.Resources>
+                <SolidColorBrush x:Key="{x:Static SystemColors.InactiveSelectionHighlightBrushKey}" Color="Transparent"/>
+            </DataGrid.Resources>
+            <DataGrid.ColumnHeaderStyle>
+                <Style TargetType="DataGridColumnHeader">
+                    <Setter Property="HorizontalContentAlignment"
+                        Value="Center" />
+                </Style>
+            </DataGrid.ColumnHeaderStyle>
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="サモナー名" Binding="{Binding Name ,Mode=OneWay}"/>
+                <DataGridTextColumn Header="ティア" Binding="{Binding Tier, Mode=OneWay}">
+                    <DataGridTextColumn.ElementStyle>
+                        <Style TargetType="TextBlock">
+                            <Setter Property="TextAlignment" Value="Center"/>
+                        </Style>
+                    </DataGridTextColumn.ElementStyle>
+                </DataGridTextColumn>
+                <DataGridTextColumn Header="LP" Binding="{Binding LP, Mode=OneWay}">
+                    <DataGridTextColumn.ElementStyle>
+                        <Style TargetType="TextBlock">
+                            <Setter Property="TextAlignment" Value="Center"/>
+                        </Style>
+                    </DataGridTextColumn.ElementStyle>
+                </DataGridTextColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+    </DockPanel>
+
+</UserControl>

@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tftkeiba", "tftkeiba\tftkeiba.csproj", "{29CEA82A-024D-4FDE-971F-2A28351D4733}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "TFTKeiba Setup", "TFTKeiba Setup\TFTKeiba Setup.vdproj", "{4D302A7B-79C1-4393-8D6D-574FBD793FFC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{29CEA82A-024D-4FDE-971F-2A28351D4733}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29CEA82A-024D-4FDE-971F-2A28351D4733}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29CEA82A-024D-4FDE-971F-2A28351D4733}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29CEA82A-024D-4FDE-971F-2A28351D4733}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D302A7B-79C1-4393-8D6D-574FBD793FFC}.Debug|Any CPU.ActiveCfg = Debug
+		{4D302A7B-79C1-4393-8D6D-574FBD793FFC}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C4556593-78E7-44C4-9040-40526FAFA7DA}
+	EndGlobalSection
+EndGlobal

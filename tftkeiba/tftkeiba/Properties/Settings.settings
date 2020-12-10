@@ -1,0 +1,39 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="tftkeiba.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="APIKey" Type="System.String" Scope="User">
+      <Value Profile="(Default)">ここにAPIKeyを入力</Value>
+    </Setting>
+    <Setting Name="ChampionsJsonName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">champions.json</Value>
+    </Setting>
+    <Setting Name="ItemsJsonName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">items.json</Value>
+    </Setting>
+    <Setting Name="TraitsJsonName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">traits.json</Value>
+    </Setting>
+    <Setting Name="IsGeneratingTanpyo" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="TiersJsonName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">tiers.json</Value>
+    </Setting>
+    <Setting Name="LeagueList" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="ShouldGetAllSummonerData" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="WideRegion" Type="System.String" Scope="User">
+      <Value Profile="(Default)">AMERICAS</Value>
+    </Setting>
+    <Setting Name="Region" Type="System.String" Scope="User">
+      <Value Profile="(Default)">NA1</Value>
+    </Setting>
+    <Setting Name="IsUpgrated" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
