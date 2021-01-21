@@ -15,12 +15,6 @@
     {
         "Entry"
         {
-        "MsmKey" = "8:_0D77DBB723F04E27B45CB149F6AB45D4"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_1835649C18B90AFCC222167E3708B647"
         "OwnerKey" = "8:_DCEEF3A46B991000CD5D16331515D8DE"
         "MsmSig" = "8:_UNDEFINED"
@@ -107,6 +101,12 @@
         {
         "MsmKey" = "8:_A03CF38998B89826D8633B14AED33AD3"
         "OwnerKey" = "8:_F510D9D0589347F6BFFC7A6998C02AAF"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_D1387BCB846B496A8B25D6A275B39521"
+        "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -288,26 +288,6 @@
         }
         "File"
         {
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_0D77DBB723F04E27B45CB149F6AB45D4"
-            {
-            "SourcePath" = "8:C:\\Users\\81806\\Desktop\\tftkeiba_icon.ico"
-            "TargetName" = "8:tftkeiba_icon.ico"
-            "Tag" = "8:"
-            "Folder" = "8:_03898FA46E9046068701CC0009F7ACC1"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_1835649C18B90AFCC222167E3708B647"
             {
             "AssemblyRegister" = "3:1"
@@ -525,6 +505,26 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_D1387BCB846B496A8B25D6A275B39521"
+            {
+            "SourcePath" = "8:..\\tftkeiba\\tftkeiba_icon.ico"
+            "TargetName" = "8:tftkeiba_icon.ico"
+            "Tag" = "8:"
+            "Folder" = "8:_03898FA46E9046068701CC0009F7ACC1"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_D8E7295AA26F7C830D3FED3940C9A33A"
             {
             "AssemblyRegister" = "3:1"
@@ -654,15 +654,15 @@
         {
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:TFTKeiba"
-        "ProductCode" = "8:{475D45AB-EBD2-491C-88FE-A488BFEE64AC}"
-        "PackageCode" = "8:{08E6FFED-9402-47CE-9358-F7E0697C6C7B}"
+        "ProductCode" = "8:{E82F5C72-2E60-4CCC-9B32-63FD8A3D4C64}"
+        "PackageCode" = "8:{92415BE8-1310-48BF-9713-834B132698EF}"
         "UpgradeCode" = "8:{E02A7C49-F0C5-4182-A2EC-E89F1E61FE20}"
         "AspNetVersion" = "8:2.0.50727.0"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:TRUE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:FALSE"
-        "ProductVersion" = "8:1.0.1"
+        "ProductVersion" = "8:1.0.11"
         "Manufacturer" = "8:kmmm"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"
@@ -786,7 +786,7 @@
             "Target" = "8:_F510D9D0589347F6BFFC7A6998C02AAF"
             "Folder" = "8:_DBE35145E3FA47B28A1065D10F1ED4C9"
             "WorkingFolder" = "8:_03898FA46E9046068701CC0009F7ACC1"
-            "Icon" = "8:_0D77DBB723F04E27B45CB149F6AB45D4"
+            "Icon" = "8:_D1387BCB846B496A8B25D6A275B39521"
             "Feature" = "8:"
             }
             "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_F93C90040B164AAD8FC865150459FF9F"
@@ -800,7 +800,7 @@
             "Target" = "8:_F510D9D0589347F6BFFC7A6998C02AAF"
             "Folder" = "8:_891457DAF894492CB289BDB3329C2349"
             "WorkingFolder" = "8:_03898FA46E9046068701CC0009F7ACC1"
-            "Icon" = "8:_0D77DBB723F04E27B45CB149F6AB45D4"
+            "Icon" = "8:_D1387BCB846B496A8B25D6A275B39521"
             "Feature" = "8:"
             }
         }
